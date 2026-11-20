@@ -1,0 +1,55 @@
+.tools/
+**/bin/
+**/obj/
+artifacts/
+.vs/
+
+# Local builds, generated validation workspaces, and caches
+**/publish/
+**/__pycache__/
+*.py[cod]
+validation/desktop/dotnet/fixture-repo/
+validation/desktop/dotnet/*.zip
+validation/desktop/ui/verification/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.user
+*.suo
+*.pfx
+*.p12
+*.key
+.DS_Store
+Thumbs.db
+
+# Local documentation, design notes, and historical prototypes
+/doc/
+/docs/
+/validation/
+*.md
+*.markdown
+*.mdx
+!/README.md
+design.json
+
+# Local development checks are maintained outside the product repository
+/tests/
+/test/
+/src/GitScope.App/Verification.cs
+
+# Local AI assistant instructions and state
+.codex/
+.claude/
+.agents/
+.cursor/
+.gemini/
+.aider/
+.ai/
+.cursorrules
+.cursorignore
+.windsurfrules
+.clinerules
+.aider*
