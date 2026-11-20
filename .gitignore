@@ -53,3 +53,17 @@ design.json
 .windsurfrules
 .clinerules
 .aider*
+
+# Temporary collaboration documents; remove this allowlist when documentation is archived
+!/WORKLOG.md
+!/doc/
+/doc/*
+!/doc/*.md
+!/doc/evidence/
+/doc/evidence/*
+!/doc/evidence/*.md
+!/src/GitScope.App/README.md
+!/src/GitScope.App/WORKLOG.md
+!/src/GitScope.Core/Query/WORKLOG.md
+!/src/GitScope.Core/Transactions/WORKLOG.md
+!/src/GitScope.Core/Transactions/VALIDATION.md
